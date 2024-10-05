@@ -1,5 +1,5 @@
 let lista = [];
-let numerosPossiveis = 10;
+let numerosPossiveis = 100;
 let tentativas = 1;
 let numero = gerarNumero();
 
@@ -37,10 +37,10 @@ function verificarChute() {
         }
     }
 }
-
+0
 function telaInicial(){
     mudarTexto('h1', 'jogo do numero misterioso');
-    mudarTexto('p', 'escolha um numero de 1 a 10');
+    mudarTexto('p', 'escolha um numero de 1 a 100');
     document.getElementById('reiniciar').setAttribute('disabled',true);
     //desabilita o botão
 }
