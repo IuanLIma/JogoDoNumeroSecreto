@@ -7,7 +7,7 @@ function mudarTexto(tag , texto) {
     let mudar = document.querySelector(tag);
     mudar.innerHTML = texto;
     //parametros na função para poder usar mais uma vez para coisas diferentes
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
+    responsiveVoice.speak(texto, 'Brazigitlian Portuguese Female', {rate:1.2});
     //linha que faz o html falar graças ao import do html linha 7
 }
 
@@ -37,7 +37,7 @@ function verificarChute() {
         }
     }
 }
-0
+
 function telaInicial(){
     mudarTexto('h1', 'jogo do numero misterioso');
     mudarTexto('p', 'escolha um numero de 1 a 100');
